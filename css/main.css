@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+    border-radius:60px; 
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+nav a{
+    color:black;
+}
+nav a:hover{
+    background-color: aqua;
+    color:white;
+}
+.florence{
+    text-align: center;
+}
+.botonseparado{
+    margin-right: 10px;
+}
+.alturaimg{
+   padding-left: 10px;
+}
+.descriptionServ{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+}
