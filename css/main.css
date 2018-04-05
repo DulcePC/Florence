@@ -4,7 +4,9 @@
 body{
     box-sizing: border-box;
 }
-
+.paddinglogin{
+    padding-right: 10px;
+}
 .logo{
     width: 100px;
     height: 70px;
@@ -17,22 +19,90 @@ nav a{
     color:black;
 }
 nav a:hover{
-    background-color: aqua;
+    background-color: #bdbdbd;
     color:white;
+    opacity: 0.4;
+}
+.menuli{
+    color:black;
+    font-weight: bold;
 }
 .florence{
     text-align: center;
+    color:white;
+}
+.colorText{
+    color:#c8e6c9;
+    font-size: 18px;
+}
+.colorh6{
+    color:white;
+    font-size:20px;
+
 }
 .botonseparado{
     margin-right: 10px;
 }
+.ColorFondoFloren{
+    background-color: #353b4b;
+}
+.ColorFondoServ{
+    background-color:#0e9c9d;
+}
+.ColorFondoCont{
+    background-color:#000000;
+}
 .alturaimg{
-   padding-left: 10px;
+    width: 100%;
+    height: 400px;
 }
 .descriptionServ{
     text-align: center;
-    color: black;
+    color: white;
     font-size: 18px;
-    font-weight: bold;
 
+}
+.sizeschool{
+    font-size: 70px;
+   color: black
+}
+
+.sizeassignment{
+    font-size: 70px;
+    color: black;
+}
+.sizechat{
+    font-size: 70px;
+    color: black;
+}
+.parallax-container {
+    height: 100px;
+}
+.contactoh2{
+    text-align: center;
+    color:white;
+}
+h3{
+    color:yellow;
+    text-align: center;
+}
+
+.page-footer{
+    background-color:#263238;
+}
+li a:hover{
+    color: #0e9c9d;
+}
+textarea{
+    color:yellow;
+}
+.prefix{
+    color: white;
+}
+.redes:hover{
+    background-color: #0e9c9d;
+    opacity: 0.4;
+}
+.border-top{
+    border-top: 2px solid white;
 }

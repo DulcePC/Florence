@@ -1,11 +1,10 @@
 $(document).ready(function () {
-    $('.sidenav').sidenav({
-        edge:'right' //cambiar posicion del sidenav a la derecha
-    });
     $('.parallax').parallax();
-    // setInterval(function(){
-    //   $('.carousel').carousel('next');
-    // },3000);
+
+    setInterval(function(){
+       $('.carousel').carousel('next');
+    },3000);
+
     //slideshow
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
@@ -15,8 +14,9 @@ $(document).ready(function () {
 
         $('html, body').animate({
             'scrollTop': $target.offset().top
-        }, 6000, 'swing');
+        }, 4000, 'swing');
     });
+
     $('.carousel.carousel-slider').carousel({
         fullWidth:true,
         indicators:true,

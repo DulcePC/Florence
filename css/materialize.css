@@ -4479,6 +4479,7 @@ nav .input-field label.active i {
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 64px;
     line-height: 64px;
+    margin-top:-5px;
   }
   .navbar-fixed {
     height: 64px;

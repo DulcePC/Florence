@@ -13,27 +13,21 @@
 </head>
 
 <body>
-    <div class="carousel carousel-slider">
-        <nav>
-            <div class="nav-wrapper navbar-fixed">
-                <a href="#" class="brand-logo"><img src="img/logo.jpg" class="logo"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#first">Inicio</a></li>
-                    <li><a href="#second">Nosotros</a></li>
-                    <li><a href="#third">Servicios</a></li>
-                    <li><a href="#third">Nuestros profesionales</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!--movile demo-->
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="#!">Sass</a></li>
-            <li><a href="#!">Components</a></li>
-            <li><a href="#!">Javascript</a></li>
-            <li><a href="#!">Mobile</a></li>
-        </ul>
-
+    <div class="carousel carousel-slider" id="first">
+        <div class="navbar-fixed">
+            <nav>
+                    <div class="nav-wrapper">
+                        <div class="brand-logo hide-on-small-only hide-on-med-only"><img src="img/logo.jpg" class="logo"></div>
+                        <ul id="nav-mobile" class="right hide-on-small-only">
+                            <li><a href="#first"  class="menuli">Inicio</a></li>
+                            <li><a href="#second" class="menuli">Nosotros</a></li>
+                            <li><a href="#third"  class="menuli">Servicios</a></li>
+                            <li><a href="#four"   class="menuli">Contacto</a></li>
+                            <li><a href="#!" class="menuli"><img src="img/login.png" class="paddinglogin">Iniciar</a></li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>
         <!--slideshow-->
         
         <a class="carousel-item" href="#one!" id="img1">
@@ -47,61 +41,129 @@
         </a>
         <div class="carousel-fixed-item center">
             <a class="btn waves-effect pink botonseparado">Registrate</a>
+            <a class="btn waves-effect green botonseparado">Iniciar</a>
         </div>
     </div>
     <div class="parallax-container hide-on-small-only">
         <div class="parallax "><img src="img/parallax1.jpg"></div>
     </div>
-    <div class="section pink">
-        <h3 class="florence">Florence</h3>
+    <div class="section ColorFondoFloren z-depth-5" id="second">
+        <h2 class="florence">Nosotros</h2>
         <div class="center"><i class="material-icons">dehaze</i></div>
-        <div class="row">
-            <div class="col l4 m4 s12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde illum eaque officiis iure cum numquam a beatae eos praesentium neque, magni sed laboriosam, repellat nulla expedita. Omnis mollitia est aliquid sunt! Voluptate impedit aliquam facilis consequuntur tempore sint, officia voluptatem reprehenderit quaerat, fuga quod omnis maxime, distinctio assumenda explicabo!</p>
-            </div>
-            <div class="col l6 m6 s12">
-                <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet doloremque expedita cupiditate numquam officiis maiores similique architecto, voluptatem molestias, laboriosam nobis veritatis et? Quod tenetur, vel unde praesentium voluptates cupiditate!</p>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col l4 m6 s12">
+                    <img src="img/florenceabout.jpg" class="alturaimg">
+                </div>
+                <div class="col l8 m6 s12">
+                    <h6 class="center colorh6">Florence</h6>
+                    <p class="center  colorText">Un proyecto que tiene el fin de facilitar la comunicación  entre paciente y médico, además de digitalizar la manera para determinar más fácilmente que enfermedad puedas poseer.</p>
+                    <h6 class="center colorh6">Paciente</h6>    
+                    <p class="center  colorText">Seleccionando los síntomas que posees te daremos la enfermedad que más se acomode a tu descripción y con nuestro chat médico-paciente tendrás una conexión directa con los especialistas</p>
+                    <h6 class="center colorh6">Médico:</h6>    
+                    <p class="center colorText">Con nuestro chat podrás mantener conexión directa con tus pacientes, así como un sistema de control de citas, registros, records, e informaciones de tus pacientes</p>
+                </div>
             </div>
         </div>
     </div>
     <div class="parallax-container hide-on-small-only">
         <div class="parallax"><img src="img/parallax2.jpg"></div>
     </div>
-    <div class="section ColorFondo">
-        <h3 class="florence">Servicios</h3>
+    <div class="section ColorFondoServ altura z-depth-5" id="third">
+        <h2 class="florence">Servicios</h2>
         <div class="center"><i class="material-icons">dehaze</i></div>
-        <div class="container">
+        <br>
+        <br>
+        <div>
             <div class="row">
-                <div class="col l4 m12 s12">
-                    <img src="img/serv1.jpg" class="alturaimg">
-                   <p class="descriptionServ"><i class="material-icons">check</i>Especialistas en el area</p>
+                <div class="col l4 m4 s12 center">
+                    <i class="material-icons sizeschool">school</i>
+                    <p class="descriptionServ">Especialistas en el area</p>
                 </div>
-                <div class="col l4 m12 s12">
-                    <img src="img/serv2.jpg" class="alturaimg">
-                    <p class="descriptionServ"><i class="material-icons">check</i>Comunicacion con el especialista de tu preferencia</p>
+                <div class="col l4 m4 s12 center">
+                    <div class="center">
+                        <i class="material-icons sizechat">chat</i>
+                        <p class="descriptionServ">Comunicacion con el especialista de tu preferencia</p>
+                    </div>
                 </div>
-                <div class="col l4 m12 s12">
-                    <img src="img/serv3.jpg" class="alturaimg">
-                    <p class="descriptionServ"> <i class="material-icons">check</i>Diccionario de enfermedades</p>                    
+                <div class="col l4 m4 s12 center">
+                    <i class="material-icons sizeassignment">assignment</i>
+                    <p class="descriptionServ">Diccionario de enfermedades</p>                    
                 </div>
             </div>
+            <br>
+            <div class="row">
+                    <div class="col l4 m4 s12 center">
+                        <i class="material-icons sizeschool">check</i>
+                        <p class="descriptionServ">Actualizados en enfermedades recientes</p>
+                    </div>
+                    <div class="col l4 m4 s12 center">
+                        <div class="center">
+                            <i class="material-icons sizechat">location_on</i>
+                            <p class="descriptionServ">Rutas a los hospitales más cercanos</p>
+                        </div>
+                    </div>
+                    <div class="col l4 m4 s12 center">
+                        <i class="material-icons sizeassignment">assignment</i>
+                        <p class="descriptionServ">Diccionario de enfermedades</p>                    
+                    </div>
+            </div>
+            <br>
+            <br>
+            <br>
         </div>
     </div>
     <div class="parallax-container hide-on-small-only">
         <div class="parallax"><img src="img/parallax3.jpg"></div>
     </div>
-    <div class="section pink">
-            <h3 class="florence">Florence</h3>
-            <div class="center"><i class="material-icons">dehaze</i></div>
+    <div class="section ColorFondoCont" id="four">
+        <h2 class="contactoh2">Contactanos</h2>
+        <div class="center"><i class="material-icons">dehaze</i></div>
+        <div class="row">
+            <div class="col l6 m12 s12">
+                <h3>Encuentranos</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.1752044156007!2d-69.66220112087011!3d18.451888349215572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf7ff3c0268889%3A0x21e5b3265c8d658b!2sResidencia+Acad%C3%A9mica%2C+Campus+ITLA%2C+Calle+Cibernetico+Itla+Road%2C+Santo+Domingo!5e0!3m2!1sen!2sdo!4v1508918986695" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col l6 m12 s12">
+                <h3>Envianos un mensaje</h3>                
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                <a class="btn right" href="#!">Enviar</a>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
             <div class="row">
-                <div class="col l4 m4 s12">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde illum eaque officiis iure cum numquam a beatae eos praesentium neque, magni sed laboriosam, repellat nulla expedita. Omnis mollitia est aliquid sunt! Voluptate impedit aliquam facilis consequuntur tempore sint, officia voluptatem reprehenderit quaerat, fuga quod omnis maxime, distinctio assumenda explicabo!</p>
+                <div class="col l6 s12 center">
+                    <div class="row">
+                        <br>
+                        <br>
+                        <br>
+                        <div class="col l4 m4 m4"><img src="img/facebook.png" class="redes"></div>
+                        <div class="col l4 m4 m4"><img src="img/twitter.png" class="redes"></div>
+                        <div class="col l4 m4 m4"><img src="img/email.png" class="redes"></div>
+                    </div>
                 </div>
-                <div class="col l6 m6 s12">
-                    <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet doloremque expedita cupiditate numquam officiis maiores similique architecto, voluptatem molestias, laboriosam nobis veritatis et? Quod tenetur, vel unde praesentium voluptates cupiditate!</p>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="yellow-text">Herramientas</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Materialize</a></li>
+                        <li><a class="white-text" href="#!">Firabase</a></li>
+                        <li><a class="white-text" href="#!">HTML5</a></li>
+                        <li><a class="white-text" href="#!">CSS3</a></li>
+                        <li><a class="white-text" href="#!">Javascript</a></li>
+                    </ul>
                 </div>
             </div>
-    </div>
+        </div>
+        <div class="footer-copyright border-top">
+            <div class="container center yellow-text ">
+              © 2014 Copyright Text
+            </div>
+        </div>
+    </footer>
 
 
 
