@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/materialize.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/animate.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
     <link rel="stylesheet" href="css/main.css" />
 </head>
 
@@ -44,16 +44,13 @@
             <a class="btn waves-effect green botonseparado">Iniciar</a>
         </div>
     </div>
-    <div class="parallax-container hide-on-small-only">
-        <div class="parallax "><img src="img/parallax1.jpg"></div>
-    </div>
     <div class="section ColorFondoFloren z-depth-5" id="second">
-        <h2 class="florence">Nosotros</h2>
+        <h2 class="florence animated slideInDown">Nosotros</h2>
         <div class="center"><i class="material-icons">dehaze</i></div>
         <br>
         <div class="container">
             <div class="row">
-                <div class="col l4 m6 s12">
+                <div class="col l4 m6 s12 delay animated slideInLeft ">
                     <img src="img/florenceabout.jpg" class="alturaimg">
                 </div>
                 <div class="col l8 m6 s12">
@@ -67,11 +64,9 @@
             </div>
         </div>
     </div>
-    <div class="parallax-container hide-on-small-only">
-        <div class="parallax"><img src="img/parallax2.jpg"></div>
-    </div>
+    <br>
     <div class="section ColorFondoServ altura z-depth-5" id="third">
-        <h2 class="florence">Servicios</h2>
+        <h2 class="florence animated slideInDown">Servicios</h2>
         <div class="center"><i class="material-icons">dehaze</i></div>
         <br>
         <br>
@@ -114,16 +109,16 @@
             <br>
         </div>
     </div>
-    <div class="parallax-container hide-on-small-only">
-        <div class="parallax"><img src="img/parallax3.jpg"></div>
-    </div>
+    <br>
     <div class="section ColorFondoCont" id="four">
-        <h2 class="contactoh2">Contactanos</h2>
+        <h2 class="contactoh2 animated slideInDown">Contactanos</h2>
         <div class="center"><i class="material-icons">dehaze</i></div>
         <div class="row">
             <div class="col l6 m12 s12">
                 <h3>Encuentranos</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.1752044156007!2d-69.66220112087011!3d18.451888349215572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf7ff3c0268889%3A0x21e5b3265c8d658b!2sResidencia+Acad%C3%A9mica%2C+Campus+ITLA%2C+Calle+Cibernetico+Itla+Road%2C+Santo+Domingo!5e0!3m2!1sen!2sdo!4v1508918986695" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div row>
+                    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.1752044156007!2d-69.66220112087011!3d18.451888349215572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf7ff3c0268889%3A0x21e5b3265c8d658b!2sResidencia+Acad%C3%A9mica%2C+Campus+ITLA%2C+Calle+Cibernetico+Itla+Road%2C+Santo+Domingo!5e0!3m2!1sen!2sdo!4v1508918986695" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col l6 m12 s12">
                 <h3>Envianos un mensaje</h3>                
@@ -141,14 +136,14 @@
                         <br>
                         <br>
                         <br>
-                        <div class="col l4 m4 m4"><img src="img/facebook.png" class="redes"></div>
-                        <div class="col l4 m4 m4"><img src="img/twitter.png" class="redes"></div>
-                        <div class="col l4 m4 m4"><img src="img/email.png" class="redes"></div>
+                        <div class="col l4 m4 s4"><img src="img/facebook.png" class="redes"></div>
+                        <div class="col l4 m4 s4"><img src="img/twitter.png" class="redes"></div>
+                        <div class="col l4 m4 s4"><img src="img/email.png" class="redes"></div>
                     </div>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                  <h5 class="yellow-text">Herramientas</h5>
-                    <ul>
+                  <h5>Herramientas</h5>
+                    <ul class="center">
                         <li><a class="white-text" href="#!">Materialize</a></li>
                         <li><a class="white-text" href="#!">Firabase</a></li>
                         <li><a class="white-text" href="#!">HTML5</a></li>
@@ -159,8 +154,8 @@
             </div>
         </div>
         <div class="footer-copyright border-top">
-            <div class="container center yellow-text ">
-              © 2014 Copyright Text
+            <div class="container center copyright">
+              © 2018 Copyright Text
             </div>
         </div>
     </footer>

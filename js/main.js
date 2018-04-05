@@ -1,9 +1,9 @@
 $(document).ready(function () {
     $('.parallax').parallax();
 
-    setInterval(function(){
-       $('.carousel').carousel('next');
-    },3000);
+   // setInterval(function(){
+      // $('.carousel').carousel('next');
+    //},3000);
 
     //slideshow
     $('a[href^="#"]').on('click', function (e) {
@@ -14,7 +14,7 @@ $(document).ready(function () {
 
         $('html, body').animate({
             'scrollTop': $target.offset().top
-        }, 4000, 'swing');
+        }, 1000, 'swing');
     });
 
     $('.carousel.carousel-slider').carousel({

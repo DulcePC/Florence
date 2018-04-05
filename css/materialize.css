@@ -8367,7 +8367,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 }
 
 .carousel.carousel-slider .carousel-fixed-item.with-indicators {
-  bottom: 95px;
+  bottom: 80px;
 }
 
 .carousel.carousel-slider .carousel-item {
@@ -8400,7 +8400,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 
 .carousel .carousel-item > img {
   width: 100%;
-  height:700px;
+  height:650px;
 }
 
 .carousel .indicators {
