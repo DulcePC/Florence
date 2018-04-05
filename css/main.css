@@ -5,6 +5,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color:#f6f7f9;
 }
 .paddinglogin{
     padding-right: 10px;
@@ -32,6 +33,7 @@ nav a:hover{
 .florence{
     text-align: center;
     color:white;
+    letter-spacing: 5px;
     animation-duration: 5s;
 }
 .colorText{
@@ -41,17 +43,38 @@ nav a:hover{
 .colorh6{
     color:white;
     font-size:20px;
-
 }
-.botonseparado{
+.botoninicio1{
     margin-right: 10px;
+    border: 3px solid #e91e63;
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+    margin-bottom:10px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.botoninicio2{
+    margin-right: 10px;
+    border: 3px solid #4caf50;
+    background-color: white;
+    color:black;    
+    border-radius: 20px;
+    margin-bottom:10px;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+.botoninicio1:hover{
+    background-color: #e91e63;
+}
+.botoninicio2:hover{
+    background-color:  #4caf50;
 }
 .ColorFondoFloren{
     background-color: #353b4b;
 }
-.ColorFondoServ{
-    background-color:#0e9c9d;
-}
+
 .ColorFondoCont{
     background-color:#000000;
 }
@@ -59,30 +82,130 @@ nav a:hover{
     width: 100%;
     height: 400px;
 }
+.servicios{
+    color:black;
+    text-align: center;
+    letter-spacing: 5px;
+    animation-duration: 5s;
+}
+.ColorFondoServ{
+    background-color:white;
+}
+.sizeschool{
+    font-size: 70px;
+   color: white;
+}
+
+.sizeassignment{
+    font-size: 70px;
+    color: white;
+}
+.sizechat{
+    font-size: 70px;
+    color: white;
+}
+
+.colorbackespecialista{
+    background-color:#ff9800;
+    height:200px;
+}
+.textoexpecialista{
+    padding: 2em;
+}
+.colorbackchat{
+    background-color: #1cc7d0;
+    height:200px;
+}
+.textochat{
+    padding: 2em;
+}
+.colorbackassig{
+    background-color: #000000;
+    height: 200px;
+}
+.textoassing{
+    padding: 2em;
+}
+.colorbackcheck{
+    background-color: #335238;
+    height: 200px;
+}
+.textocheck{
+    padding: 2em;
+}
+.colorbacklocat{
+    background-color: #3b3141;
+    height: 200px;
+}
+.textolocat{
+    padding: 2em;
+}
+.colorbackdeter{
+    background-color:#afb42b;
+    height: 200px;
+}
+.textodeter{
+    padding: 2em;
+}
 .descriptionServ{
     text-align: center;
     color: white;
     font-size: 18px;
 
 }
-.sizeschool{
-    font-size: 70px;
-   color: black
+.ColorFondoDoct{
+    background-color: #afb42b;
+}
+.colorbacktest1{
+    background-color: white;
+    height: 500px;
+}
+.textotest1{
+    padding:2em;
+    font-size: 18px;
+    text-align: center;
+    color:black;
+}
+.iconcomment{
+    margin-bottom: 30px;
+}
+.comment{
+    font-size:15px;
+}
+.doctorimg{
+    border-radius: 100px;
+    height: 160px;
+    width: 70%;
+    margin: 0 auto;
+}
+.divimgtest{
+    /* margin-top: 50px; */
+    margin:30px 0px 12px;
+}
+.testimonios{
+    color:black;
+    text-align: center;
+    letter-spacing: 5px;
+    animation-duration: 5s;
 }
 
-.sizeassignment{
-    font-size: 70px;
-    color: black;
-}
-.sizechat{
-    font-size: 70px;
-    color: black;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 .contactoh2{
     text-align: center;
     color:white;
 }
+
 h3{
     color:#0e9c9d;
     text-align: center;
