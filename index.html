@@ -44,9 +44,19 @@
             <a class="btn waves-effect  botonseparado botoninicio2">Iniciar</a>
         </div>
     </div>
+    <div class="fixed-action-btn prueba">
+            <a class="btn-floating btn-large red">
+              <i class="large material-icons">mode_edit</i>
+            </a>
+            <ul>
+              <li><a class="btn-floating red "><i class="material-icons">insert_chart</i></a></li>
+              <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+              <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+              <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+            </ul>
+    </div>
     <div class="section ColorFondoFloren z-depth-5" id="second">
         <h2 class="florence animated slideInDown">Nosotros</h2>
-        <div class="center"><i class="material-icons">dehaze</i></div>
         <br>
         <div class="container">
             <div class="row">
@@ -67,13 +77,12 @@
     <br>
     <div class="section ColorFondoServ altura z-depth-5" id="third">
         <h2 class="servicios animated slideInDown">Servicios</h2>
-        <div class="center"><i class="material-icons">dehaze</i></div>
         <br>
         <br>
         <div>
             <div class="row">
                 <div class="col l4 m4 s12 center">
-                    <div class="colorbackespecialista">
+                    <div class="colorbackespecialista z-depth-5">
                         <div class="textoexpecialista">
                             <i class="material-icons sizeschool">school</i>
                             <p class="descriptionServ">Especialistas en el area</p>
@@ -81,7 +90,7 @@
                     </div>
                 </div>
                 <div class="col l4 m4 s12 center">
-                    <div class="colorbackchat">
+                    <div class="colorbackchat z-depth-5">
                         <div class="textochat">
                             <i class="material-icons sizechat">chat</i>
                             <p class="descriptionServ">Comunicacion con el especialista de tu preferencia</p>
@@ -89,7 +98,7 @@
                     </div>
                 </div>
                 <div class="col l4 m4 s12 center">
-                    <div class="colorbackassig">
+                    <div class="colorbackassig z-depth-5">
                         <div class="textoassing">
                             <i class="material-icons sizeassignment">assignment</i>
                             <p class="descriptionServ">Diccionario de enfermedades</p>
@@ -100,7 +109,7 @@
             <br>
             <div class="row">
                 <div class="col l4 m4 s12 center">
-                    <div class="colorbackcheck">
+                    <div class="colorbackcheck z-depth-5">
                         <div class="textocheck">
                             <i class="material-icons sizeschool">check</i>
                             <p class="descriptionServ">Actualizados en enfermedades recientes</p>
@@ -108,7 +117,7 @@
                     </div>
                 </div>
                 <div class="col l4 m4 s12 center">
-                    <div class="colorbacklocat">
+                    <div class="colorbacklocat z-depth-5">
                         <div class="textolocat">
                             <i class="material-icons sizechat">location_on</i>
                             <p class="descriptionServ">Rutas a los hospitales más cercanos</p>
@@ -116,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col l4 m4 s12 center">
-                    <div class="colorbackdeter">
+                    <div class="colorbackdeter z-depth-5">
                         <div class="textodeter">
                             <i class="material-icons sizeassignment">assignment</i>
                             <p class="descriptionServ">Determinar más fácilmente que enfermedad puedas poseer.</p>
@@ -129,11 +138,11 @@
     <br>
     <div class="section ColorFondoDoct z-depth-5 " id="#four">
         <h2 class="testimonios animated slideInDown">Testimonios</h2>
-        <div class="center"><i class="material-icons">dehaze</i></div>
+
        <div class="container">
            <div class="row">
                 <div class="col l4 m4 s12">
-                    <div class="colorbacktest1">
+                    <div class="colorbacktest1 z-depth-5">
                         <div class="textotest1">
                             <div class="iconcomment">
                                 <img src="img/comment.png">
@@ -147,7 +156,7 @@
                     </div>
                 </div>
                 <div class="col l4 m4 s12">
-                    <div class="colorbacktest1">
+                    <div class="colorbacktest1 z-depth-5">
                         <div class="textotest1">
                             <div class="iconcomment">
                                 <img src="img/comment.png">
@@ -161,7 +170,7 @@
                     </div>
                 </div>
                 <div class="col l4 m4 s12">
-                    <div class="colorbacktest1">
+                    <div class="colorbacktest1 z-depth-5">
                         <div class="textotest1">
                             <div class="iconcomment">
                                 <img src="img/comment.png">
@@ -180,19 +189,45 @@
     <br>
     <div class="section ColorFondoCont" id="five">
         <h2 class="contactoh2 animated slideInDown">Contactanos</h2>
-        <div class="center"><i class="material-icons">dehaze</i></div>
         <div class="row">
-            <div class="col l6 m12 s12">
-                <h3>Encuentranos</h3>
-                <div row>
+            <div class="col l4 m12 s12">
+                <div class="contenedorCon1">
+                    <div class="contenedorCon1Tex">
+                        <h5>Envianos un mensaje</h5>       
+                            <div>
+                                <div class="input-field">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="icon_prefix" type="text" class="validate">
+                                    <label for="icon_prefix">Nombre</label>
+                                </div>
+                                <div class="input-field ">
+                                    <i class="material-icons prefix">drafts</i>
+                                    <input id="icon_prefix" type="text" class="validate">
+                                    <label for="icon_prefix">Email</label>
+                                </div>
+                                <i class="material-icons prefix">edit</i>
+                                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            </div>
+                    </div>
+                    <a class="btn right" href="#!">Enviar</a>
+                </div>
+            </div>
+            <div class="col l4 m12 s12 center">
+                <div class="row">
                     <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.1752044156007!2d-69.66220112087011!3d18.451888349215572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf7ff3c0268889%3A0x21e5b3265c8d658b!2sResidencia+Acad%C3%A9mica%2C+Campus+ITLA%2C+Calle+Cibernetico+Itla+Road%2C+Santo+Domingo!5e0!3m2!1sen!2sdo!4v1508918986695" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col l6 m12 s12">
-                <h3>Envianos un mensaje</h3>                
-                <i class="material-icons prefix">mode_edit</i>
-                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                <a class="btn right" href="#!">Enviar</a>
+            <div class="col l4 m12 s12 center">
+                <div class="contenedorCon1">
+                    <div class="contenedorCon1Tex">
+                        <h5>Direccion</h5>
+                        <ul>
+                            <i class="material-icons whiteIconDirection">location_on</i><li>Instituto Tegnologico Las Americas</li>
+                            <br>
+                            <i class="material-icons whiteIconDirection">drafts</i><li>florence@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
