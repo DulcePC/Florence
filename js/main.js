@@ -4,9 +4,9 @@ $(document).ready(function () {
         fullWidth:true,
         indicators:false,
       });
-    // setInterval(function(){
-    //  $('.carousel').carousel('next');
-    // },3000);
+    //  setInterval(function(){
+    //   $('.carousel').carousel('next');
+    //  },3000);
    
     //slideshow
     $('a[href^="#"]').on('click', function (e) {

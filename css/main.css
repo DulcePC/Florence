@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 body{
     box-sizing: border-box;
@@ -8,29 +9,76 @@ body{
     background-color:#f6f7f9;
 }
 /*inicio*/
-.paddinglogin{
-    padding-right: 10px;
-}
+
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius:70px; 
     margin-top: 15px;
     margin-left: 5px;
 
 }
+/* .navblanco{
+    background-color: transparent;
+    margin:0;
+    padding: 0;
+} */
+.nav-wrapper{
+    margin:0;
+    padding: 0;
+    background-color: transparent;
+}
 nav a{
-    color:black;
+    color:#04BBBF;
 }
 
 .menuli{
-    color:black;
+    color:#04BBBF;
     font-weight: bold;
 }
 li .menuli:hover{
     background-color:gainsboro;
-    color:#04BBBF;
+
 }
+.botoninicio1{
+    margin-right: 10px;
+    border: 3px solid #04BBBF;
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+    margin-bottom:-15px;
+    text-align: center;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+.botoninicio2{
+    border: 3px solid #353b4b;
+    background-color: white;
+    color:black;    
+    border-radius: 20px;
+    margin-bottom:-15px;
+    text-align: center;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    
+}
+.botoninicio1:hover{
+    background-color: #04BBBF;
+    color:white;
+}
+.botoninicio2:hover{
+    background-color:  #353b4b;
+    color:white;
+}
+.alturaimg{
+    width: 100%;
+    height: 400px;
+}
+
 
 /*inicio*/
 .florence{
@@ -39,48 +87,22 @@ li .menuli:hover{
     letter-spacing: 5px;
     animation-duration: 5s;
 }
-.colorText{
-    color:#c8e6c9;
-    font-size: 18px;
-}
+
 .colorh6{
     color:white;
-    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
-.botoninicio1{
-    margin-right: 10px;
-    border: 3px solid #e91e63;
-    background-color: white;
-    color:black;
-    border-radius: 20px;
-    margin-bottom:10px;
-    text-align: center;
-    letter-spacing: 3px;
-}
-.botoninicio2{
-    margin-right: 10px;
-    border: 3px solid #4caf50;
-    background-color: white;
-    color:black;    
-    border-radius: 20px;
-    margin-bottom:10px;
-    text-align: center;
-    letter-spacing: 3px;
-    
-}
-.botoninicio1:hover{
-    background-color: #e91e63;
-}
-.botoninicio2:hover{
-    background-color:  #4caf50;
-}
-.ColorFondoFloren{
-    background-color: #353b4b;
+.colorText{
+    color:#04BBBF;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
-.alturaimg{
-    width: 100%;
-    height: 400px;
+.ColorFondoFloren{
+    background-color: #353b4b;
 }
 
 /*servicios*/
@@ -150,7 +172,7 @@ li .menuli:hover{
     padding: 2em;
 }
 .descriptionServ{
-    text-align: center;
+
     color: white;
     font-size: 18px;
 
@@ -164,10 +186,11 @@ li .menuli:hover{
 .colorbacktest1{
     background-color: white;
     height: 500px;
+    margin-bottom: 10px;
+
 }
 .textotest1{
     padding:2em;
-    font-size: 18px;
     text-align: center;
     color:black;
 }
@@ -179,13 +202,18 @@ li .menuli:hover{
 }
 .doctorimg{
     border-radius: 100px;
-    height: 160px;
-    width: 70%;
-    margin: 0 auto;
+    height: 60%;
+    width: 60%;
+    margin-left: 55px;
+}
+#doctor2{
+    margin-top: -20px;
+}
+#doctor3{
+    margin-top: 25px;
 }
 .divimgtest{
-    /* margin-top: 50px; */
-    margin:30px 0px 12px;
+    width: 100%;
 }
 .testimonios{
     color:white;
@@ -193,6 +221,11 @@ li .menuli:hover{
     letter-spacing: 5px;
     animation-duration: 5s;
 }
+/* @media screen and (max-width: 360px) {
+    .colorbacktest1 {
+        height: 300px;
+    }
+} */
 
 
 
@@ -215,6 +248,15 @@ li .menuli:hover{
 h5{
     color:#0e9c9d;
     text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.evianosunmensaje{
+    color:white;
+}
+.titulodireccion{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color:white;
 }
 .copyright{
     color:#0e9c9d;
@@ -244,4 +286,27 @@ textarea{
 }
 .whiteIconDirection{
     color: white;
+}
+.enviar{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding:5px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.direccion{
+    font-weight: bold;
+    color:white;
+}
+input[type=text]{
+    color:white;
+}
+textarea{
+    color:white;
+}
+.label{
+    color:white;
+}
+.codec{
+    color:white;
 }

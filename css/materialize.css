@@ -4308,6 +4308,7 @@ nav i.material-icons {
 nav .nav-wrapper {
   position: relative;
   height: 100%;
+  margin-top: -9px;
 }
 
 @media only screen and (min-width: 993px) {
@@ -4464,7 +4465,7 @@ nav .input-field label.active i {
 
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  height: 0px;
   z-index: 997;
 }
 
@@ -4482,7 +4483,7 @@ nav .input-field label.active i {
     margin-top:-5px;
   }
   .navbar-fixed {
-    height: 64px;
+    height: 0px;
   }
 }
 
@@ -5166,7 +5167,7 @@ small {
   border-radius: 2px;
   display: inline-block;
   height: 36px;
-  line-height: 36px;
+  /* line-height: 36px; */
   padding: 0 16px;
   /* text-transform: uppercase; */
   vertical-align: middle;
@@ -5251,7 +5252,7 @@ small {
   color: #fff;
   background-color: #26a69a;
   text-align: center;
-  letter-spacing: 5px;
+  /* letter-spacing: 5px; */
   -webkit-transition: background-color .2s ease-out;
   transition: background-color .2s ease-out;
   cursor: pointer;
@@ -6552,7 +6553,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
 }
 
 .input-field .prefix.active {
-  color: #26a69a;
+  color: white;
 }
 
 .input-field .prefix ~ input,

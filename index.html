@@ -8,53 +8,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/materialize.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
     <link rel="stylesheet" href="css/main.css" />
+    
 </head>
 
-<body>
+<body class="col s12">
+    <div class="navbar-fixed navblanco">
+        <nav>
+            <div class="nav-wrapper">
+                <div class="brand-logo hide-on-small-only hide-on-med-only"><img src="img/logo.jpg" class="logo"></div>
+                    <ul id="nav-mobile" class="right hide-on-small-only">
+                        <li><a href="#first"  class="menuli">Inicio</a></li>
+                        <li><a href="#second" class="menuli">Nosotros</a></li>
+                        <li><a href="#third"  class="menuli">Servicios</a></li>
+                        <li><a href="#four"   class="menuli">Contacto</a></li>
+                        <li><a href="#!" class="menuli"><i class="material-icons left">account_circle</i>Iniciar</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </div>
     <div class="carousel carousel-slider" id="first">
-        <div class="navbar-fixed">
-            <nav>
-                    <div class="nav-wrapper">
-                        <div class="brand-logo hide-on-small-only hide-on-med-only"><img src="img/logo.jpg" class="logo"></div>
-                        <ul id="nav-mobile" class="right hide-on-small-only">
-                            <li><a href="#first"  class="menuli">Inicio</a></li>
-                            <li><a href="#second" class="menuli">Nosotros</a></li>
-                            <li><a href="#third"  class="menuli">Servicios</a></li>
-                            <li><a href="#four"   class="menuli">Contacto</a></li>
-                            <li><a href="#!" class="menuli"><img src="img/login.png" class="paddinglogin">Iniciar</a></li>
-                        </ul>
-                    </div>
-            </nav>
-        </div>
         <!--slideshow-->
-        
-        <a class="carousel-item" href="#one!" id="img1">
-            <img src="img/one.jpg">
-        </a>
-        <a class="carousel-item" href="#two!" id="img2">
-            <img src="img/two.jpg">
-        </a>
-        <a class="carousel-item" href="#three!" id="img3">
-            <img src="img/three.jpg">
-        </a>
-        <div class="carousel-fixed-item center">
-            <a class="btn waves-effect  botonseparado botoninicio1">Registrate</a>
-            <a class="btn waves-effect  botonseparado botoninicio2">Iniciar</a>
-        </div>
+                <a class="carousel-item" href="#one!" id="img1">
+                    <img src="img/one.jpg">
+                </a>
+                <a class="carousel-item" href="#two!" id="img2">
+                    <img src="img/two.jpg">
+                </a>
+                <a class="carousel-item" href="#three!" id="img3">
+                    <img src="img/three.jpg">
+                </a>
+                <div class="carousel-fixed-item center">
+                    <a class="btn waves-effect  botoninicio1">Registrate</a>
+                    <a class="btn waves-effect  botoninicio2">Iniciar</a>
+                </div>
     </div>
-    <div class="fixed-action-btn prueba">
-            <a class="btn-floating btn-large red">
-              <i class="large material-icons">mode_edit</i>
-            </a>
-            <ul>
-              <li><a class="btn-floating red "><i class="material-icons">insert_chart</i></a></li>
-              <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-              <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-              <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-            </ul>
-    </div>
+
     <div class="section ColorFondoFloren z-depth-5" id="second">
         <h2 class="florence animated slideInDown">Nosotros</h2>
         <br>
@@ -136,9 +127,8 @@
         </div>
     </div>
     <br>
-    <div class="section ColorFondoDoct z-depth-5 " id="#four">
+    <div class="section ColorFondoDoct z-depth-5 ">
         <h2 class="testimonios animated slideInDown">Testimonios</h2>
-
        <div class="container">
            <div class="row">
                 <div class="col l4 m4 s12">
@@ -146,12 +136,13 @@
                         <div class="textotest1">
                             <div class="iconcomment">
                                 <img src="img/comment.png">
+                                <p class="comment flow-text">Excelente app, rapida y puedo encontrar facilmente lo relacionado a los sintomas que siento</p>                              
                             </div>
-                            <p class="comment flow-text">lore loremlore loremlore loremlore loremlore lorem lorem loree loem lorem lorem lorem lorem lorem</p>
-                            <div class="divimgtest hide-on-med-only hide-on-small-only ">
-                                <img src="img/doctor1.jpg" class="doctorimg z-depth-5">
-                            </div>
-                            <h5>Juan Garcia</h5>
+                            
+                        </div>
+                        <div class="divimgtest">
+                            <img src="img/doctor1.jpg" class="doctorimg z-depth-5 img-responsive" id="doctor1">
+                            <h5>Franklyn Perez</h5> 
                         </div>
                     </div>
                 </div>
@@ -160,12 +151,12 @@
                         <div class="textotest1">
                             <div class="iconcomment">
                                 <img src="img/comment.png">
-                            </div>
-                            <p class="comment flow-text">lore loremlore loremlore loremlore loremlore lorem lorem loree loem lorem lorem lorem lorem lorem</p>
-                            <div class="divimgtest hide-on-med-only hide-on-small-only">
-                                <img src="img/doctor2.jpg" class="doctorimg img-responsive z-depth-5">
-                            </div>
-                            <h5>Dulce Perez</h5>
+                                <p class="comment flow-text">Lo que mas me gusta de esta aplicación es lo facil y rapido que puedes comunicarte con el doctor especialidado en el area que requieras</p>
+                            </div> 
+                        </div>
+                        <div class="divimgtest">
+                                <img src="img/doctor2.jpg" class="doctorimg img-responsive z-depth-5" id="doctor2">
+                                <h5>Susan Camila</h5>
                         </div>
                     </div>
                 </div>
@@ -174,31 +165,31 @@
                         <div class="textotest1">
                             <div class="iconcomment">
                                 <img src="img/comment.png">
-                            </div>
-                            <p class="comment flow-text">lore loremlore loremlore loremlore loremlore lorem lorem loree loem lorem lorem lorem lorem lorem</p>                            
-                            <div class="divimgtest hide-on-med-only hide-on-small-only">
-                                <img src="img/doctor3.jpg" class="doctorimg img-responsive z-depth-5">
-                            </div>
-                            <h5>Pedro Perez</h5>
+                                <p class="comment flow-text">Excelente aplicación en caso de emergencias para la ubicacion de las ambulancias</p>              
+                            </div>          
                         </div>
+                        <div class="divimgtest">
+                                <img src="img/doctor3.jpg" class="doctorimg img-responsive z-depth-5" id="doctor3">
+                                <h5>Roniel Hernandez</h5> 
+                        </div> 
                     </div>
                 </div>
            </div>
        </div>
     </div>
     <br>
-    <div class="section ColorFondoCont" id="five">
+    <div class="section ColorFondoCont" id="four" >
         <h2 class="contactoh2 animated slideInDown">Contactanos</h2>
         <div class="row">
             <div class="col l4 m12 s12">
                 <div class="contenedorCon1">
                     <div class="contenedorCon1Tex">
-                        <h5>Envianos un mensaje</h5>       
+                        <h5 class="evianosunmensaje">Envianos un mensaje</h5>       
                             <div>
                                 <div class="input-field">
                                     <i class="material-icons prefix">account_circle</i>
                                     <input id="icon_prefix" type="text" class="validate">
-                                    <label for="icon_prefix">Nombre</label>
+                                    <label class="label" for="icon_prefix">Nombre</label>
                                 </div>
                                 <div class="input-field ">
                                     <i class="material-icons prefix">drafts</i>
@@ -209,7 +200,10 @@
                                 <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
                             </div>
                     </div>
-                    <a class="btn right" href="#!">Enviar</a>
+                    <div class="col s4 m4 right">
+                        <a class="btn  enviar" href="#!">Enviar</a>
+
+                    </div>
                 </div>
             </div>
             <div class="col l4 m12 s12 center">
@@ -217,21 +211,26 @@
                     <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.1752044156007!2d-69.66220112087011!3d18.451888349215572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf7ff3c0268889%3A0x21e5b3265c8d658b!2sResidencia+Acad%C3%A9mica%2C+Campus+ITLA%2C+Calle+Cibernetico+Itla+Road%2C+Santo+Domingo!5e0!3m2!1sen!2sdo!4v1508918986695" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col l4 m12 s12 center">
+            <div class="col l4 m12 s12">
                 <div class="contenedorCon1">
                     <div class="contenedorCon1Tex">
-                        <h5>Direccion</h5>
-                        <ul>
-                            <i class="material-icons whiteIconDirection">location_on</i><li>Instituto Tegnologico Las Americas</li>
-                            <br>
-                            <i class="material-icons whiteIconDirection">drafts</i><li>florence@gmail.com</li>
-                        </ul>
+                        <h5 class="titulodireccion">Información</h5>
+                        <br>
+                        <div>
+                            <ul>
+                                <li class="direccion"><i class="material-icons whiteIconDirection left">location_on</i> Instituto Tegnologico Las Americas</li>
+                                <br>
+                                <li class="direccion"><i class="material-icons whiteIconDirection left">drafts</i> florence_medicine@gmail.com</li>
+                                <br>
+                                <li class="direccion"><i class="material-icons whiteIconDirection left">people</i><a href="#!" class="codec">CODEC</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="page-footer">
+    <footer class="page-footer col s12 l12 m12">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12 center">
