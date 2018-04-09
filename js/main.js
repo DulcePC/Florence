@@ -7,7 +7,7 @@ $(document).ready(function () {
       setInterval(function(){
        $('.carousel').carousel('next');
       },3000);
-   
+
     //slideshow
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
