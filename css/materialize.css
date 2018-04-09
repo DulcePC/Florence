@@ -4307,7 +4307,7 @@ nav i.material-icons {
 
 nav .nav-wrapper {
   position: relative;
-  height: 100%;
+  height: 85%;
   margin-top: -9px;
 }
 
@@ -4465,7 +4465,7 @@ nav .input-field label.active i {
 
 .navbar-fixed {
   position: relative;
-  height: 0px;
+  height: 35px;
   z-index: 997;
 }
 
@@ -4483,7 +4483,7 @@ nav .input-field label.active i {
     margin-top:-5px;
   }
   .navbar-fixed {
-    height: 0px;
+    height: 35px;
   }
 }
 
