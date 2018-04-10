@@ -7,6 +7,7 @@ body{
     margin: 0;
     padding: 0;
     background-color:#f6f7f9;
+   
 }
 /*inicio*/
 
@@ -77,16 +78,33 @@ li .menuli:hover{
     background-color:  #353b4b;
     color:white;
 }
-.alturaimg{
-    width: 100%;
-    height: 400px;
-}
 
 
 /*inicio*/
+.ColorFondoFloren{
+    /* background-color: #353b4b; */
+    background-image: url(/Users/dulcecastillo/Desktop/estudios/Florence/img/equipo.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.formulario{
+    background-color:  rgba(66, 66, 66, 0.7);
+    border-radius: 30px;
+    margin: auto;
+
+}
+.alturaimg{
+    width: 100%;
+    height: 400px;
+    border-radius: 200px;
+}
+
 .florence{
     text-align: center;
-    color:white;
+    color:black;
+
     letter-spacing: 5px;
     animation-duration: 5s;
 }
@@ -102,10 +120,6 @@ li .menuli:hover{
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-}
-
-.ColorFondoFloren{
-    background-color: #353b4b;
 }
 
 /*servicios*/
@@ -228,11 +242,20 @@ li .menuli:hover{
     letter-spacing: 3px;
     animation-duration: 5s;
 }
-/* @media screen and (max-width: 360px) {
-    .colorbacktest1 {
-        height: 300px;
+@media screen and (max-width: 800px) {
+    #doctor2{
+        margin-top: -42px;
     }
-} */
+}
+@media screen and (max-width: 1000px) {
+    .doctorimg{
+        border-radius: 100px;
+        height: 60%;
+        width: 60%;
+        margin-left: 55px;
+        margin-top: 25px;
+    }
+}
 
 
 
@@ -250,7 +273,13 @@ li .menuli:hover{
 .ColorFondoCont{
     background-color:#03558A;
 }
-
+.mailto{
+    color:white;
+    text-decoration: none;
+}
+.mailto:hover{
+    color:#ec407a;
+}
 
 h5{
     color:#0e9c9d;
@@ -294,12 +323,18 @@ textarea{
 .whiteIconDirection{
     color: white;
 }
+.evianosunmensaje{
+    margin-bottom: 25px;
+}
 .enviar{
-    padding-left: 5px;
-    padding-right: 5px;
-    padding:5px;
+    background-color: green;
     letter-spacing: 3px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    line-height: 36px; 
+    margin-bottom: 20px;
 }
 .direccion{
     font-weight: bold;
@@ -316,4 +351,7 @@ textarea{
 }
 .codec{
     color:white;
+}
+.codec:hover{
+    color:#ec407a;
 }
