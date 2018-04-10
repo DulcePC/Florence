@@ -109,6 +109,10 @@ li .menuli:hover{
 }
 
 /*servicios*/
+.prueba{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .servicios{
     color:black;
     text-align: center;
@@ -221,7 +225,7 @@ li .menuli:hover{
 .testimonios{
     color:white;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     animation-duration: 5s;
 }
 /* @media screen and (max-width: 360px) {
