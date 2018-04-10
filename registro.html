@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>registro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/materialize.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/registro.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario center">
+            <div class="row">
+                <div class="col l12 s12 m12 titulo">
+                    <img src="img/florenceabout.jpg">
+                    <h1 class="flow-text size">Registra tus datos</h1>
+                </div>
+            </div>
+            <form action="#">
+                <div class="row">
+                    <div class="input-field col l12 s12 especificaciones">
+                        <input name="atrib" id="name" type="text">
+                        <label for="name" class="label">
+                            <i class="material-icons left">account_circle</i>Nombre</label>
+                    </div>
+                    <div class="input-field col  l12 s12 especificaciones">
+                        <input name="atrib" id="last" type="text">
+                        <label for="last">
+                            <i class="material-icons left">account_circle</i>Apellido</label>
+                    </div>
+                    <div class="input-field col l12 s12 especificaciones">
+                        <input name="atrib" id="email" type="text">
+                        <label for="email">
+                            <i class="material-icons left">email</i>Email</label>
+                    </div>
+                    <div class="input-field col l12 s12 especificaciones">
+                        <input name="atrib" id="password" type="password">
+                        <label for="password">Nueva contraseña</label>
+                    </div>
+                </div>
+            </form>
+            <form>
+                <div class="row divP">
+                    <div class="col l12">
+                        <p class="left soy">Soy un</p>
+                        <p class="left margin">
+                            <label for="paciente">
+                                <input id="paciente" type="radio" name="type" value="Paciente">
+                                <span>Paciente</span>
+                            </label>
+                        </p>
+                        <p class="left">
+                            <label for="medico">
+                                <input id="medico" type="radio" name="type" value="Medico">
+                                <span>Medicos</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div id="exeqq" class="input-field col l12 m12 s12 cot especificaciones">
+                        <label for="email">
+                            <input name="atrib" id="exeq" type="text"> Exequatur
+                        </label>
+                    </div>
+                    <select name="type_skill" id="type_skill" onchange="cargarEspecialidad();" class="hide browser-default  col s12 especificaciones">
+                        <option value="" disabled selected>Seleccione una area</option>
+                    </select>
+                    <select name="especialidad" class="hide col s12 browser-default especificaciones" id="especialidad">
+                        <option value="" disabled selected>Seleccione una especialidad</option>
+                    </select>
+                    <div class="col l12 m12">
+                        <a  href="javascript:guardar();" class=" btn BotonLogin center">Iniciar Sesión</a>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-2.2.0.min.js"><\/script>')
+    </script>
+    <script src="js/sweetalert2.js"></script>
+    <script src="js/sweetalert2.all.js"></script>
+    <script src="js/sweetalert2.common.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/registro.js"></script>
+</body>
+
+</html>

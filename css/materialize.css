@@ -6220,7 +6220,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
 input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=search]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #26a69a;
+  color: white;
 }
 
 input:not([type]):focus.valid ~ label,
@@ -6481,6 +6481,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   position: relative;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  /* border: 2px solid black; */
 }
 
 .input-field.inline {
@@ -6504,9 +6505,9 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
 }
 
 .input-field > label {
-  color: #9e9e9e;
+  /* color: #9e9e9e; */
   position: absolute;
-  top: 0;
+  top: -7px;
   left: 0;
   font-size: 1rem;
   cursor: text;

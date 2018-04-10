@@ -1,0 +1,28 @@
+label{
+    color:white;
+}
+input[type=text]{
+    color:white;
+}
+input[type=password]{
+    color:white;
+}
+span{
+    color:white;
+}
+input[type=radio]{
+    color:white;
+}
+input[type=email]{
+    color:white;
+}
+.click{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.click:hover{
+    color:#81d4fa;
+    font-weight: bold;
+    font-size: 20px;
+}
