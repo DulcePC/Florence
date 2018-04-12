@@ -19,19 +19,11 @@ body{
     margin-left: 5px;
 
 }
-/* .navblanco{
-    background-color: transparent;
-    margin:0;
-    padding: 0;
-} */
 .nav-wrapper{
     margin:0;
     padding: 0;
     background-color:white;
 }
-/* nav a{
-    color:white;
-} */
 
 .menuli{
     color:black;
@@ -88,6 +80,7 @@ li .menuli:hover{
     width: 100%;
     height: 100%;
     background-size: cover;
+
 }
 .formulario{
     background-color:  rgba(66, 66, 66, 0.7);
